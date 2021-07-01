@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.parkritezambia.parkritemobile.PhoneActivity"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/verifyLayout"
+        android:orientation="vertical"
+        android:background="@drawable/gradiennt1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="100dp"
+            android:maxWidth="100dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@mipmap/ppc"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="@string/verify_note"
+            android:textStyle="italic"
+            android:gravity="center_horizontal"
+            android:textSize="14sp"
+            android:id="@+id/firstText"
+            android:paddingTop="18dp"
+            android:layout_marginBottom="20dp"
+            />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="40dp"
+                android:paddingEnd="40dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+
+
+
+                <com.rilixtech.CountryCodePicker
+                    android:id="@+id/ccp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:ccp_defaultNameCode="ZM"
+                    app:ccp_showFullName="true"
+                    android:layout_gravity="center"
+                    android:padding="18dp"
+                    app:ccp_textColor="@color/white"
+                    app:ccp_countryPreference="ZM,ZW,MZ"
+                    />
+
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/phone_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Phone number"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textColorHint="#d3d3d3"
+                    android:autoText="true"
+                    android:background="@null"
+                    android:inputType="phone"
+                    />
+
+
+
+              <!--  <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Log in"
+                    android:paddingEnd="16dp"
+                    android:paddingStart="16dp"
+                    android:background="#fff"
+                    android:id="@+id/loginButton"
+                    android:textColor="@color/colorPrimary"
+                    />-->
+
+
+                <mehdi.sakout.fancybuttons.FancyButton
+                    android:id="@+id/loginButton"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="8dp"
+                    android:elevation="3dp"
+                    android:padding="8dp"
+                    android:textStyle="bold"
+                    fancy:fb_borderColor="#FFFFFF"
+                    fancy:fb_borderWidth="0dp"
+                    fancy:fb_defaultColor="@android:color/holo_red_dark"
+                    fancy:fb_focusColor="#000"
+                    fancy:fb_fontIconResource="&#xf007;"
+                    fancy:fb_iconPosition="left"
+                    fancy:fb_radius="30dp"
+                    fancy:fb_text="Login"
+                    fancy:fb_textColor="#FFFFFF"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="220dp"
+                    />
+                <!-- START GOOGLE SIGNIN-->
+                <mehdi.sakout.fancybuttons.FancyButton
+                    android:id="@+id/google"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:elevation="3dp"
+                    android:padding="8dp"
+                    android:textStyle="bold"
+                    fancy:fb_borderColor="@android:color/holo_red_dark"
+                    fancy:fb_borderWidth="1dp"
+                    fancy:fb_defaultColor="@android:color/white"
+                    fancy:fb_focusColor="#000"
+                    fancy:fb_fontIconResource="&#xf1a0;"
+                    fancy:fb_iconPosition="left"
+                    fancy:fb_radius="30dp"
+                    fancy:fb_text=" Sign In with Google"
+                    fancy:fb_textColor="#000"
+                    tools:layout_editor_absoluteX="0dp"
+                    tools:layout_editor_absoluteY="220dp" />
+
+                    <!-- END GOOGLE SIGNIN-->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#9E9E9E"
+                    android:text="@string/code_instructions"
+                    android:textSize="13sp"
+                    android:id="@+id/directions"
+                    android:gravity="center"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="20dp"
+                    />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/gradiennt1"
+        android:id="@+id/inputCodeLayout"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true">
+
+        <TextView
+            android:id="@+id/verifytext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:text="Verification code"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Please type the verification code sent to your phone."
+            android:gravity="center"
+            android:paddingStart="30dp"
+            android:paddingEnd="30dp"
+            android:textSize="14sp"
+            android:paddingTop="18dp"
+            android:layout_marginBottom="20dp" />
+
+        <com.goodiebag.pinview.Pinview
+            android:id="@+id/sms_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:pinWidth="30dp"
+            app:pinHeight="30dp"
+            app:pinLength="6"
+            app:cursorVisible="false"
+            app:forceKeyboard="false"
+            app:hint="0"
+            app:inputType="number"
+            app:password="false"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Didin't receive the code?"
+            android:gravity="center"
+            android:paddingStart="30dp"
+            android:paddingEnd="30dp"
+            android:textSize="12sp"
+            android:paddingTop="18dp"
+            android:layout_marginBottom="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Please wait "
+                android:textSize="12sp"
+                />
+
+            <TextView
+                android:id="@+id/timer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:textSize="12sp"
+                tools:text="0:30 " />
+
+        </LinearLayout>
+
+        <!--<Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resend Code"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp"
+            android:layout_marginTop="6dp"
+            android:layout_gravity="center"
+            android:id="@+id/resend_code"
+            android:background="#fff"
+            android:textSize="12sp"
+            android:textColor="@color/colorPrimary"/>-->
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/resend_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:elevation="3dp"
+            android:padding="8dp"
+            android:textStyle="bold"
+            fancy:fb_borderColor="#FFFFFF"
+            fancy:fb_borderWidth="0dp"
+            fancy:fb_defaultColor="@android:color/holo_red_dark"
+            fancy:fb_focusColor="#000"
+            fancy:fb_iconPosition="left"
+            fancy:fb_radius="30dp"
+            fancy:fb_text="Resend"
+            fancy:fb_textColor="#FFFFFF"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="220dp" />
+    </LinearLayout>
+
+</RelativeLayout>

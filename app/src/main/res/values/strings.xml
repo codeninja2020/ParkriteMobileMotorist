@@ -1,0 +1,148 @@
+<resources>
+
+    <string name="action_settings">Settings</string>
+    <string name="verify_note">Parking Made Easy.</string>
+    <string name="code_instructions">Your details will never be shared with third parties. By Signing in you agree to Parkrite Terms of service terms and Privacy Policy</string>
+    <string name="warm_greeting">
+               Sign In to help us uniquely identify you and keep track of your account.
+               Ensure you are connected to the internet.
+    </string>
+    <string name="app_name">Parkrite Mobile</string>
+    <string name="parkingHeader">Parking Credit</string>
+    <string name="parkingSubtitle">Your remaining Parking Credit</string>
+    <string name="country">zambia</string>
+
+    <string name="open">open</string>
+
+    <string name="googlaAds">pub-4199073856039566</string>
+
+    <string name="close">close</string>
+
+    <string name="openDrawer">Open</string>
+
+    <string name="closeDrawer">Close</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Facebook application ID and custom URL scheme (app ID prefixed by 'fb'). -->
+    <string name="facebook_application_id" translatable="false">YOUR_APP_ID</string>
+
+    <string name="facebook_login_protocol_scheme" translatable="false">fbYOUR_APP_ID</string>
+
+    <string name="termsheading">Introduction</string>
+
+    <string name="intro">Parkrite Zambia, respects your privacy and is committed to protecting it through our
+        compliance with this policy. This policy describes our privacy practices for our applications and websites
+        where it is posted.   This policy does not apply to information we might collect in other situations, like
+        offline or by email. This policy also does not apply to the practices of third parties who may provide services or
+        features on our sites or apps.
+        Please read this policy carefully to understand our policies and practices regarding your information and
+        how we will treat it. If you do not agree with our policies and practices, do not download,
+        register with or use this application or service. By downloading, registering with or using this
+        application or service, you agree to this privacy policy. This policy may change from time to time.
+        Your continued use after we make changes is deemed to be acceptance of those changes, so please check the
+        policy periodically for updates.
+</string>
+
+    <string name="topic1">
+Information We Collect and How We Collect It
+    </string>
+    <string name="sub1">
+        Information You Provide to Us </string>
+    <string name="sub1body">
+When you download, register with or use this application or website, we may ask you provide information:
+Personal Information.  By which you may be personally identified, such as name, phone number, mailing address, and email address.
+Payment information. If you make purchases or create an account, we might collect your credit card and billing information.
+Vehicle information. For example, we might collect your license plate number.
+Transaction information.  Details of transactions you carry out through the application and of the fulfillment of your orders.
+</string>
+    <string name="sub2">
+        Automatic Information Collection </string>
+    <string name="sub2body">
+When you download, access and use our application or website, it may use technology to automatically collect:
+Website Details.We may also collect information about the parts of our application or website you use or third party websites you visit when you leave our website.  We may work with third parties who collect information about you when you use our apps or website.
+App Usage Details. When you access and use the application, we may automatically collect certain details of your access to and use of the app, including location data and other communication data and the resources that you access and use on or through the app.
+Device Information. If you download our application, we may collect information from your mobile device, like your device ID.
+Other information.  We may collect information about your IP address, operating system, browser type, mobile network information and the device’s telephone number.
+Location Information.Our application collects real-time information about the location of your device to provide you services and to make it easier for you to use our service.
+    </string>
+    <string name="sub3">
+        Information Collection Technologies</string>
+    <string name="sub3body">
+The technologies we use for automatic information collection may include:
+Cookies (or mobile cookies).A cookie is a small file placed on your smartphone. It may be possible to refuse to accept mobile cookies by activating the appropriate setting on your smartphone. However, if you select this setting you may be unable to access certain parts of our application.
+You can choose whether or not to share personal information.  If you choose not to share, some parts of our sites and some services may be more difficult or impossible to use.  Your browser may give you the ability to reject cookies or turn off location-based capabilities.  If you choose not to disable these features, some parts of our sites and some services may be more difficult or impossible to use.  If you do not want us to collect information about you or your device do not download the application or uninstall it from your device.
+    </string>
+
+    <string name="sub4">
+        How We Use Your Information </string>
+    <string name="sub4body">
+We use information that we collect about you or that you provide to us, including any personal information, to:
+We use information to respond to your requests or questions.For example we may use your information to help you access your account if you forget your password.
+We use your information to help us improve our products and services. We may use information to customize and improve your experience.  For example, we might look at usage trends to make sure our sites and apps are easy to use.
+For security purposes. We may use information to protect our company, our customers, our websites, or our applications.
+To provide updates. For example, we may send you email or push notifications about your account, transactions, or changes to our sites, applications, or policies.
+For our legitimated business purposes.  We will also use your information to fulfill any other purpose for which you provide it.  We may also use information you provide to carry out our obligations and enforce our rights arising from any contracts entered into between you and us, including for billing and collection.  We may combine information that we receive about you from third parties with information we already have.
+    As otherwise permitted by law.</string>
+
+    <string name="sub5">
+        Disclosure of Your Information </string>
+    <string name="sub5body">
+We may disclose aggregated information about our users without restriction. In addition, we may disclose personal information that we collect or you provide in the following ways:
+We share information with parking and transit providers in order for you to use their parking and transit services and to support their management and enforcement process.
+Service Providers. We share information with contractors, service providers and other third parties we use to support our business.
+Change in corporate ownership.  We share information with a buyer or other successor in the event of a merger, divestiture, restructuring, reorganization, dissolution or other sale or transfer of some or all of Parkrite Zambia’s assets, whether as a going concern or as part of bankruptcy, liquidation or similar proceeding, in which personal information is among the assets transferred.
+To protect rights and safety.  If we believe disclosure is necessary or appropriate to protect the rights, property, or safety of Parkrite Zambia, our customers or others.
+For legal purposes.  To comply with any court order, law or legal process, including to respond to any government or regulatory request.
+To our subsidiaries and affiliates.
+For any other purpose we disclose when you provide the information.
+        Otherwise with your consent. </string>
+
+
+    <string name="sub6">
+        Your Zambia Privacy Rights</string>
+    <string name="sub6body">Zambia Civil Code Section  permits users of our application that are Zambian residents to request certain information regarding our disclosure of personal information to third parties for their direct marketing purposes. To make such a request, please send an e-mail to info@parkritezambia.com.
+</string>
+
+
+    <string name="sub7">Other Information
+</string>
+
+
+    <string name="sub8">Data Security</string>
+    <string name="sub8body">
+We have implemented measures designed to secure your personal information from accidental loss and from unauthorized access, use, alteration and disclosure.  However, the internet is a public place.  We cannot promise that your information will remain secure.  We encourage you to use caution when sharing information.  Do not share your password with other people and pick secure passwords.
+Our sites and servers may be located in the United States. If you are outside of the U.S., your information may be sent to the United States. By using our sites and applications, and by giving us your information, you consent to such transfer. You also understand that the U.S. may not provide you with as much protections as the laws of your country.
+The safety and security of your information also depends on you. Where we have given you (or where you have chosen) a PIN or password for access to certain parts of our application, you are responsible for keeping this information confidential. We ask you not to share this information with anyone.
+</string>
+
+    <string name="sub9">
+        Children under the Age of 13 </string>
+
+    <string name="sub9body">
+Our platform is not intended for children under 13 years of age, and we do not knowingly collect personal information from children under 13.
+</string>
+
+    <string name="sub10"> Third-Parties </string>
+    <string name="sub10body">
+Our sites and applications may contain links to third party sites. If you click on one of those links, you will be taken to sites we do not control. This policy does not apply to the practices of that site.	You should read third party privacy policies carefully.
+</string>
+
+    <string name="sub11">
+Changes to Our Privacy Policy </string>
+    <string name="sub11body">
+We may update our privacy policy from time to time. If we make material changes to how we treat our users’ personal information, we will post the new privacy policy on this page.
+</string>
+    <string name="sub12">
+Accessing and Correcting Your Personal Information</string>
+
+    <string name="sub12body">
+You can review and change your personal information by logging in and visiting your account profile page.</string>
+
+    <string name="client">683351629520-8egivmmfus5h2gm3bgrdgebosfe9dp75.apps.googleusercontent.com
+</string>
+    <string name="parking_made_easy">Parking Made Easy</string>
+    <string name="iteritorycom_gmail_com">iteritorycom@gmail.com</string>
+</resources>

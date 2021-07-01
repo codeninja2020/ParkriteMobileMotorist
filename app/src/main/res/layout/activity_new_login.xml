@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewLogin"
+    android:layout_centerInParent="true"
+    android:background="@drawable/lusaka"
+    android:scaleType="centerCrop"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/verifyLayout"
+        android:orientation="vertical"
+        android:padding="40dp"
+        android:background="@drawable/lusaka"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true">
+        <!--
+            <com.google.android.gms.common.SignInButton
+                android:id="@+id/google"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginStart="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="16dp">
+            </com.google.android.gms.common.SignInButton>
+         -->
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="100dp"
+            android:maxWidth="100dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@mipmap/ppc"
+            android:layout_below="@+id/google"
+
+            />
+
+        <TextView
+            android:id="@+id/firstText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingTop="18dp"
+            android:text="@string/verify_note"
+            android:layout_below="@+id/imageView"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold|italic"
+            />
+        <TextView
+            android:id="@+id/secondText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingTop="18dp"
+            android:text=" Prepaid Parking Mobile App"
+            android:layout_below="@+id/firstText"
+            android:textColor="#fff"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/directions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:text="@string/warm_greeting"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            />
+
+
+        <!-- START GOOGLE SIGNIN-->
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/google"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:elevation="3dp"
+            android:padding="8dp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            fancy:fb_borderColor="@android:color/holo_red_dark"
+            fancy:fb_borderWidth="1dp"
+            fancy:fb_defaultColor="@android:color/white"
+            fancy:fb_focusColor="#000"
+            fancy:fb_fontIconResource="&#xf1a0;"
+            fancy:fb_iconPosition="left"
+            fancy:fb_radius="30dp"
+            fancy:fb_text=" Sign In with Google"
+            fancy:fb_textColor="#000"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="220dp"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

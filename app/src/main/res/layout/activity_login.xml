@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context="com.parkritezambia.parkritemobile.login"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:adjustViewBounds="true"
+        android:maxHeight="100dp"
+        android:maxWidth="100dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/pp" />
+
+    <TextView
+        android:id="@+id/payoffline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="Parking Made Easy"
+        android:textColor="#000"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/email"
+android:textSize="14sp"
+        android:drawableLeft="@drawable/emailicon" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="text"
+        android:maxLength="25"
+        android:layout_marginTop="20dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="81dp"
+        android:layout_below="@+id/payoffline"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:textSize="14sp"
+        android:drawableLeft="@drawable/passwordicon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/email"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:layout_marginTop="10dp"
+        android:elevation="3dp"
+        android:padding="8dp"
+        android:textStyle="bold"
+        fancy:fb_borderColor="#FFFFFF"
+        fancy:fb_borderWidth="0dp"
+        fancy:fb_defaultColor="@android:color/holo_red_dark"
+        fancy:fb_focusColor="#000"
+        fancy:fb_fontIconResource="&#xf007;"
+        fancy:fb_iconPosition="left"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="Login"
+        fancy:fb_textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="220dp"
+        />
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/google"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:elevation="3dp"
+        android:padding="8dp"
+        android:textStyle="bold"
+        fancy:fb_borderColor="@android:color/holo_red_dark"
+        fancy:fb_borderWidth="1dp"
+        fancy:fb_defaultColor="@android:color/white"
+        fancy:fb_focusColor="#000"
+        fancy:fb_fontIconResource="&#xf1a0;"
+        fancy:fb_iconPosition="left"
+        fancy:fb_radius="30dp"
+        fancy:fb_text=" Sign In with Google"
+        fancy:fb_textColor="#000"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="220dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:elevation="3dp"
+            android:padding="8dp"
+            android:textStyle="bold"
+            fancy:fb_borderColor="#FFFFFF"
+            fancy:fb_borderWidth="0dp"
+            fancy:fb_defaultColor="@android:color/holo_red_dark"
+            fancy:fb_focusColor="#000"
+            fancy:fb_fontIconResource="&#xf234;"
+            fancy:fb_iconPosition="left"
+            fancy:fb_radius="30dp"
+            fancy:fb_text="Sign Up"
+            fancy:fb_textColor="#FFFFFF"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="220dp" />
+
+
+        <TextView
+            android:id="@+id/forgot"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot your password?"
+            android:textColor="@color/colorPrimary"
+            android:clickable="true"/>
+
+    </LinearLayout>
+
+
+
+
+
+   <!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:drawableLeft="@drawable/newusericon"
+            android:id="@+id/signup"
+            android:paddingLeft="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/google"
+            android:text="Signup"
+            android:textColor="@color/colorPrimary" />
+
+    </LinearLayout>-->
+
+
+
+
+
+
+</LinearLayout>

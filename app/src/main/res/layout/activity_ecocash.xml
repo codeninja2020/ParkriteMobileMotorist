@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.parkritezambia.parkritemobile.EcoCash">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/abc_action_bar_default_height_material"
+        android:background="@android:color/holo_red_dark"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/appBar"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="30dp"
+            android:text="Park with "
+            android:textColor="#115CA8" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/title"
+            android:background="@drawable/ecocash"
+            android:id="@+id/ecocashlogo"
+            />
+
+    <!--    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Item"
+            android:layout_below="@+id/ecocashlogo"
+            android:id="@+id/spinnerlabel"
+            android:textColor="@android:color/black"
+            />
+
+        <Spinner
+            android:id="@+id/nice_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinnerlabel"
+            android:layout_marginRight="101dp"
+            />-->
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter amount"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/ecocashlogo"
+            android:id="@+id/enterammount"
+            android:maxLength="4"
+            android:inputType="number"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/enterammount"
+            android:layout_marginTop="15dp"
+            android:hint="Enter mobile"
+            android:maxLength="10"
+            android:inputType="phone"
+            android:minEms="10"
+            android:id="@+id/mobileNo" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mobileNo"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/white"
+            android:background="#115CA8"
+            android:text="Pay"
+            android:id="@+id/payButton"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

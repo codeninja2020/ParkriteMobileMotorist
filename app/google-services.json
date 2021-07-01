@@ -1,0 +1,251 @@
+{
+  "project_info": {
+    "project_number": "246849919284",
+    "firebase_url": "https://parkritemobile-b7b41.firebaseio.com",
+    "project_id": "parkritemobile-b7b41",
+    "storage_bucket": "parkritemobile-b7b41.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:246849919284:android:6ef643196cce9c8f",
+        "android_client_info": {
+          "package_name": "com.example.user.googlesignin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "246849919284-09ifh8sh10c661kqt1nv5j2cauanigpj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.googlesignin",
+            "certificate_hash": "00b0aa2e94a2c00bb69fdb025ca9004d6a8a04c0"
+          }
+        },
+        {
+          "client_id": "246849919284-6aqdc8tkho70au1mj37isri9hlpuusdq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.googlesignin",
+            "certificate_hash": "ac1c0340a59172b7317ff73ccc5148d1ede7be59"
+          }
+        },
+        {
+          "client_id": "246849919284-r1pufn28uvjf0pj647nsfoijvl74q0sn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaxCJIEbMxAETNDfsIIWD3RSx281oRdbw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "246849919284-r1pufn28uvjf0pj647nsfoijvl74q0sn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "246849919284-c4nkusq1nott3ltvku362peeicjbup9q.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.parkritezambia.Parkrite-Mobile"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:246849919284:android:d23c51cfd0f9adb7",
+        "android_client_info": {
+          "package_name": "com.microbots.cityparking.marshalapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "246849919284-484s2schkl232qj57q5lgjfhoqia35qv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.microbots.cityparking.marshalapp",
+            "certificate_hash": "54caa9c83d4b1777684ef5357f8664e7b0824443"
+          }
+        },
+        {
+          "client_id": "246849919284-lkf4eb9opgr6iv2sg97l5qfag47p7ntr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.microbots.cityparking.marshalapp",
+            "certificate_hash": "00b0aa2e94a2c00bb69fdb025ca9004d6a8a04c0"
+          }
+        },
+        {
+          "client_id": "246849919284-r1pufn28uvjf0pj647nsfoijvl74q0sn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaxCJIEbMxAETNDfsIIWD3RSx281oRdbw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "246849919284-r1pufn28uvjf0pj647nsfoijvl74q0sn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "246849919284-c4nkusq1nott3ltvku362peeicjbup9q.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.parkritezambia.Parkrite-Mobile"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:246849919284:android:44c3a364dfde2088",
+        "android_client_info": {
+          "package_name": "com.parkritezambia.parkritemobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "246849919284-3t6h05e5rmu61s77e4nc37b4cvhvlh12.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.parkritezambia.parkritemobile",
+            "certificate_hash": "65d7f1af0af8204c6ffc538091640e84665c1d45"
+          }
+        },
+        {
+          "client_id": "246849919284-60j18uaj1gp02lgf66e4otfqqf57vdao.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.parkritezambia.parkritemobile",
+            "certificate_hash": "00b0aa2e94a2c00bb69fdb025ca9004d6a8a04c0"
+          }
+        },
+        {
+          "client_id": "246849919284-f5p53vk4cb2icu361e5tqe6tacereh2u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.parkritezambia.parkritemobile",
+            "certificate_hash": "ac1c0340a59172b7317ff73ccc5148d1ede7be59"
+          }
+        },
+        {
+          "client_id": "246849919284-let6lp1ar0p7v80v9qbc1h28u4mupe68.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.parkritezambia.parkritemobile",
+            "certificate_hash": "54caa9c83d4b1777684ef5357f8664e7b0824443"
+          }
+        },
+        {
+          "client_id": "246849919284-p0adtecl4chiv4gpjuhlmdf37pj6sq0n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.parkritezambia.parkritemobile",
+            "certificate_hash": "a8d147fca9b842886fe1e246fc59d1875bfe396d"
+          }
+        },
+        {
+          "client_id": "246849919284-vmajp2gjo5feuajqb8c470bjdh5h9au9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.parkritezambia.parkritemobile",
+            "certificate_hash": "53ce918943367cd34dd1365b176aa9dcb836115a"
+          }
+        },
+        {
+          "client_id": "246849919284-r1pufn28uvjf0pj647nsfoijvl74q0sn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaxCJIEbMxAETNDfsIIWD3RSx281oRdbw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "246849919284-r1pufn28uvjf0pj647nsfoijvl74q0sn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "246849919284-c4nkusq1nott3ltvku362peeicjbup9q.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.parkritezambia.Parkrite-Mobile"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:246849919284:android:3a844247751edf24",
+        "android_client_info": {
+          "package_name": "teamtreehouse.com.iamhere"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "246849919284-6rpupd9r8dnvsj2jvselmhpnd76nqm7e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "teamtreehouse.com.iamhere",
+            "certificate_hash": "00b0aa2e94a2c00bb69fdb025ca9004d6a8a04c0"
+          }
+        },
+        {
+          "client_id": "246849919284-hcvj2m3j32fdihbbisb0nr8k9cgj3q78.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "teamtreehouse.com.iamhere",
+            "certificate_hash": "ac1c0340a59172b7317ff73ccc5148d1ede7be59"
+          }
+        },
+        {
+          "client_id": "246849919284-r1pufn28uvjf0pj647nsfoijvl74q0sn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaxCJIEbMxAETNDfsIIWD3RSx281oRdbw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "246849919284-r1pufn28uvjf0pj647nsfoijvl74q0sn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "246849919284-c4nkusq1nott3ltvku362peeicjbup9q.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.parkritezambia.Parkrite-Mobile"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

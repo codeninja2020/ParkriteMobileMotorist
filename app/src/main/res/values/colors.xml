@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffcc0000</color>
+    <color name="colorPrimaryDark">#ffcc1200</color>
+    <color name="whyt">#fff</color>
+
+    <!--
+        <color name="colorPrimary">#3F51B5</color>
+    -->
+    <color name="darkRed">#ffcc0000</color>
+    <color name="white">#000</color>
+    <color name="textColor">#D32F2F</color>
+    <color name="colorPrimaryDarkold">#303F9F</color>
+    <color name="colorAccent">#999999</color>
+    <color name="ColorPrimary2">#FF5722</color>
+    <color name="ColorPrimaryDark2">#E64A19</color>
+    <color name="licencePlate">#face00</color>
+
+    <color name="ball1">#FFD91C</color>
+    <color name="ball2">#FF4B4A</color>
+    <color name="ball3">#3D8EFF</color>
+    <color name="transparent">#00000000</color>
+
+    <integer-array name="colors">
+        <item>@color/ball1</item>
+        <item>@color/ball2</item>
+        <item>@color/ball3</item>
+    </integer-array>
+
+
+    <color name="fab_material_white">#ffffff</color>
+    <color name="fab_material_grey_500">#9e9e9e</color>
+
+
+</resources>
